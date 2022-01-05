@@ -4,7 +4,7 @@ const stop_words_set = new Set(stop_words.split(','));
 
 const keyToFreq = {};
 
-fs.readFile('./pride-and-prejudice.txt', 'utf8' , (err, data) => {
+fs.readFile('./Week1/pride-and-prejudice.txt', 'utf8' , (err, data) => {
   if (err) {
     console.error(err)
     return
